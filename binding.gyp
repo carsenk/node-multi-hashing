@@ -16,6 +16,7 @@
                 "hefty1.c",
                 "keccak.c",
                 "lbry.c",
+				"tribus.c",
                 "nist5.c",
                 "quark.c",
                 "qubit.c",

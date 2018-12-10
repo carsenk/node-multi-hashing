@@ -16,6 +16,7 @@ Cryptocurrency hashing functions for node.js.
 
 Algorithms
 ----------
+* tribus
 * quark
 * x11
 * x13
@@ -51,7 +52,7 @@ So far this native Node.js addon can do the following hashing algos
 ```javascript
 var multiHashing = require('multi-hashing');
 
-var algorithms = ['quark', 'x11', 'scrypt', 'scryptn', 'scryptjane', 'keccak', 'bcrypt', 'skein', 'blake'];
+var algorithms = ['tribus', 'quark', 'x11', 'scrypt', 'scryptn', 'scryptjane', 'keccak', 'bcrypt', 'skein', 'blake'];
 
 var data = new Buffer("7000000001e980924e4e1109230383e66d62945ff8e749903bea4336755c00000000000051928aff1b4d72416173a8c3948159a09a73ac3bb556aa6bfbcad1a85da7f4c1d13350531e24031b939b9e2b", "hex");
 
@@ -86,3 +87,4 @@ Credits
 * [scrypt](http://en.wikipedia.org/wiki/Scrypt) - Colin Percival
 * [bcrypt](http://en.wikipedia.org/wiki/Bcrypt) - Niels Provos and David Mazières
 * [X11](http://www.darkcoin.io/), [Hefty1](http://heavycoin.github.io/about.html), [Quark](http://www.qrk.cc/) creators (they just mixed together a bunch of the above algos)
+* [Tribus](https://denarius.io/), [carsenk](https://github.com/carsenk) - Carsen K.
