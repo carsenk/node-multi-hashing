@@ -8,7 +8,7 @@
 #include "sha3/sph_keccak.h"
 #include "sha3/sph_echo.h"
 
-void tribus_hash(const char* input, char* output)
+void tribus_hash(const char* input, char* output, uint32_t len)
 {
  	sph_jh512_context ctx_jh;
  	sph_keccak512_context ctx_keccak;
